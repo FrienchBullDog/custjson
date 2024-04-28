@@ -1,6 +1,3 @@
-<div style="background-color: #afafaf;color:black">
-&rlm;&lrm;
-
 # CustJSON
 A python package that makes its own little custom variant of JSON. Still easy to read, just no nested values (yet)
 
@@ -55,6 +52,3 @@ and replace *lineNumber* with... the line number you want to read from the curre
 ##  &rlm;&lrm;
 
 You have now learned how to use CustJSON. Yaaay!
-
-
-</div>
