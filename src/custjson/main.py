@@ -39,8 +39,8 @@ class Init:
             with open(self.file,"r") as F:
                 for line in F:
                     splitLine = line.split(":")
-                    if splitLine[0] == "{"+name+"}":
-                        spLine = splitLine[1].split('{','}')
+                    if splitLine[0] == '{"'+name+'"':
+                        spLine = splitLine[1].split('"')
                         return spLine[1]
                     else:
                         continue
